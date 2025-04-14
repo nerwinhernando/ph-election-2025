@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, ReactElement } from 'react';
 
 interface TabProps {
   title: string;
@@ -9,7 +9,7 @@ interface TabProps {
 }
 
 interface TabsProps {
-  children: React.ReactNode;
+  children: ReactElement<TabProps>[] | ReactElement<TabProps>;
   defaultTab?: string;
 }
 
@@ -21,15 +21,12 @@ export const Tab: React.FC<TabProps> = ({ children }) => {
 // Tabs Container Component
 export const Tabs: React.FC<TabsProps> = ({ children, defaultTab }) => {
   // Convert children to array to work with them
-  const tabChildren = React.Children.toArray(children);
+  const tabChildren = React.Children.toArray(children) as ReactElement<TabProps>[];
   
   // Get tab IDs from children
   const tabIds = tabChildren.map((child) => {
-    if (React.isValidElement(child)) {
-      return child.props.id;
-    }
-    return null;
-  }).filter(Boolean);
+    return child.props.id;
+  });
   
   // Set active tab state
   const [activeTab, setActiveTab] = useState<string>(defaultTab || tabIds[0] || '');
@@ -43,38 +40,30 @@ export const Tabs: React.FC<TabsProps> = ({ children, defaultTab }) => {
     <div className="tabs-container">
       <div className="tabs-header">
         {tabChildren.map((child) => {
-          if (React.isValidElement(child)) {
-            const { title, id } = child.props;
-            return (
-              <button
-                key={id}
-                className={`tab-button ${activeTab === id ? 'active' : ''}`}
-                onClick={() => handleTabClick(id)}
-              >
-                {title}
-              </button>
-            );
-          }
-          return null;
+          const { title, id } = child.props;
+          return (
+            <button
+              key={id}
+              className={`tab-button ${activeTab === id ? 'active' : ''}`}
+              onClick={() => handleTabClick(id)}
+            >
+              {title}
+            </button>
+          );
         })}
       </div>
       <div className="tab-content">
         {tabChildren.map((child) => {
-          if (React.isValidElement(child)) {
-            return (
-              <div
-                key={child.props.id}
-                className={`tab-pane ${activeTab === child.props.id ? 'active' : ''}`}
-              >
-                {activeTab === child.props.id && child}
-              </div>
-            );
-          }
-          return null;
+          return (
+            <div
+              key={child.props.id}
+              className={`tab-pane ${activeTab === child.props.id ? 'active' : ''}`}
+            >
+              {activeTab === child.props.id && child}
+            </div>
+          );
         })}
       </div>
     </div>
   );
 };
-
-// export default TabSystem;
