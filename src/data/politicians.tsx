@@ -4,13 +4,13 @@ const politicians: Politician[] = [
   {
     id: 51,
     name: "Kiko Pangilinan",
-    party: "Agriculture",
+    party: "Masaganang Hapag-kainan",
     image: "/images/politician1.jpg"
   },
   {
     id: 5,
     name: "Bam Aquino",
-    party: "Education",
+    party: "Edukasyon Para sa Lahat",
     image: "/images/politician2.jpg"
   },
   {
@@ -22,17 +22,11 @@ const politicians: Politician[] = [
   {
     id: 45,
     name: "Heidi Mendoza",
-    party: "Auditing & Anti-Corruption Crusader",
+    party: "Kalaban ng Korap",
     image: "/images/politician4.jpg"
   },
   {
-    id: 40,
-    name: "Norman Marquez",
-    party: "--",
-    image: "/images/politician5.jpg"
-  },
-  {
-    id: 6,
+    id: 16,
     name: "Teodoro Casino",
     party: "-",
     image: "/images/politician6.jpg"
@@ -46,7 +40,7 @@ const politicians: Politician[] = [
   {
     id: 17,
     name: "France Castro",
-    party: "--",
+    party: "Teachers",
     image: "/images/politician8.jpg"
   },
   {
@@ -62,7 +56,7 @@ const politicians: Politician[] = [
     image: "/images/politician10.jpg"
   },
   {
-    id: 11,
+    id: 6,
     name: "Ronel Arambulo",
     party: "--",
     image: "/images/politician11.jpg"
@@ -72,6 +66,12 @@ const politicians: Politician[] = [
     name: "Liza Maza",
     party: "Para sa OFW, Kababaihan at Pamahalaang Makabayan",
     image: "/images/politician12.jpg"
+  },
+  {
+    id: 40,
+    name: "Norman Marquez",
+    party: "Animal Welfare",
+    image: "/images/politician5.jpg"
   }
 ];
 
