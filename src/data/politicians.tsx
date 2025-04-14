@@ -2,75 +2,75 @@ import { Politician } from '../types';
 
 const politicians: Politician[] = [
   {
-    id: 1,
-    name: "Maria Santos",
-    party: "Progressive Party",
+    id: 51,
+    name: "Kiko Pangilinan",
+    party: "Agriculture",
     image: "/images/politician1.jpg"
   },
   {
-    id: 2,
-    name: "Antonio Reyes",
-    party: "Nationalist Party",
+    id: 5,
+    name: "Bam Aquino",
+    party: "Education",
     image: "/images/politician2.jpg"
   },
   {
-    id: 3,
-    name: "Lourdes Mendoza",
-    party: "Liberal Alliance",
+    id: 25,
+    name: "Luke Espiritu",
+    party: "Law & Human Rights",
     image: "/images/politician3.jpg"
   },
   {
-    id: 4,
+    id: 45,
     name: "Heidi Mendoza",
-    party: "People's Democratic Party",
+    party: "Auditing & Anti-Corruption Crusader",
     image: "/images/politician4.jpg"
   },
   {
-    id: 5,
-    name: "Elena Bonifacio",
-    party: "Reform Coalition",
+    id: 40,
+    name: "Norman Marquez",
+    party: "--",
     image: "/images/politician5.jpg"
   },
   {
     id: 6,
-    name: "Jose Malacañang",
-    party: "United Democratic Front",
+    name: "Teodoro Casino",
+    party: "-",
     image: "/images/politician6.jpg"
   },
   {
-    id: 7,
-    name: "Gabriela Torres",
-    party: "Workers' Alliance",
+    id: 8,
+    name: "Arlene Brosas",
+    party: "--",
     image: "/images/politician7.jpg"
   },
   {
-    id: 8,
-    name: "Miguel Aquino",
-    party: "National Unity Party",
+    id: 17,
+    name: "France Castro",
+    party: "--",
     image: "/images/politician8.jpg"
   },
   {
-    id: 9,
-    name: "Isabella Rosario",
-    party: "Citizens' Movement",
+    id: 2,
+    name: "Leody De Guzman",
+    party: "Dinastiya, Wakasan! ",
     image: "/images/politician9.jpg"
   },
   {
-    id: 10,
-    name: "Eduardo Marcos",
-    party: "Traditional Party",
+    id: 54,
+    name: "Danilo Ramos",
+    party: "Magsasaka, Itanim sa Senado",
     image: "/images/politician10.jpg"
   },
   {
     id: 11,
-    name: "Carolina Duterte",
-    party: "Regional Development Party",
+    name: "Ronel Arambulo",
+    party: "--",
     image: "/images/politician11.jpg"
   },
   {
-    id: 12,
-    name: "Francisco Ramos",
-    party: "Independent",
+    id: 44,
+    name: "Liza Maza",
+    party: "Para sa OFW, Kababaihan at Pamahalaang Makabayan",
     image: "/images/politician12.jpg"
   }
 ];
