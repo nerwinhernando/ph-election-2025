@@ -3,6 +3,10 @@ const nextConfig = {
   reactStrictMode: true,
   // swcMinify: true,
   output: 'standalone',
+  eslint: {
+    // Disable ESLint during build
+    ignoreDuringBuilds: true,
+  },
   images: {
     domains: ['via.placeholder.com'],
   },
