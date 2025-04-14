@@ -3,7 +3,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Philippine Politicians Voting Guide',
+  title: 'Philippines 2025 Election Voting Guide',
   description: 'Learn about the candidates and make an informed decision',
 };
 
