@@ -21,7 +21,7 @@ const politicians: Politician[] = [
   },
   {
     id: 4,
-    name: "Ramon Dela Cruz",
+    name: "Heidi Mendoza",
     party: "People's Democratic Party",
     image: "/images/politician4.jpg"
   },
