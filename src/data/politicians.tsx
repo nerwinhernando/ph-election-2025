@@ -28,37 +28,37 @@ const politicians: Politician[] = [
   {
     id: 16,
     name: "Teodoro Casino",
-    party: "-",
+    party: "Social Justice",
     image: "/images/politician6.jpg"
   },
   {
     id: 8,
     name: "Arlene Brosas",
-    party: "--",
+    party: "Women's Rights",
     image: "/images/politician7.jpg"
   },
   {
     id: 17,
     name: "France Castro",
-    party: "Teachers",
+    party: "Accountability, Transparency...",
     image: "/images/politician8.jpg"
   },
   {
     id: 2,
     name: "Leody De Guzman",
-    party: "Dinastiya, Wakasan! ",
+    party: "Workers Welfare",
     image: "/images/politician9.jpg"
   },
   {
     id: 54,
     name: "Danilo Ramos",
-    party: "Magsasaka, Itanim sa Senado",
+    party: "Farmer's Welfare",
     image: "/images/politician10.jpg"
   },
   {
     id: 6,
     name: "Ronel Arambulo",
-    party: "--",
+    party: "Mangingisda sa Senado, Isdabest",
     image: "/images/politician11.jpg"
   },
   {
@@ -68,9 +68,9 @@ const politicians: Politician[] = [
     image: "/images/politician12.jpg"
   },
   {
-    id: 40,
-    name: "Norman Marquez",
-    party: "Animal Welfare",
+    id: 47,
+    name: "Sonny Matula",
+    party: "Labor Reform",
     image: "/images/politician5.jpg"
   }
 ];
