@@ -231,6 +231,12 @@ a {
   margin-top: 40px;
 }
 
+.photo-credits {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #999;
+}
+
 /* Ballot Preview Modal */
 .ballot-preview {
   display: none;

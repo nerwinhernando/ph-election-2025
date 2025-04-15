@@ -3,7 +3,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Gabay sa 2025 Eleksiyon',
+  title: 'Gabay sa Halalan 2025',
   description: 'Learn about the candidates and make an informed decision',
 };
 

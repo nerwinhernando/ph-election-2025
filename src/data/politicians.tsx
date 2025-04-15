@@ -32,7 +32,7 @@ const politicians: Politician[] = [
     image: "/images/politician6.jpg"
   },
   {
-    id: 8,
+    id: 13,
     name: "Arlene Brosas",
     party: "Women's Rights",
     image: "/images/politician7.jpg"
@@ -68,7 +68,7 @@ const politicians: Politician[] = [
     image: "/images/politician12.jpg"
   },
   {
-    id: 47,
+    id: 43,
     name: "Sonny Matula",
     party: "Labor Reform",
     image: "/images/politician5.jpg"
